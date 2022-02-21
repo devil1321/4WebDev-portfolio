@@ -1,0 +1,32 @@
+.nav{
+    position:absolute;
+    right:100px;
+    top:20px;
+    z-index: 2;
+    &__link{
+        position: relative;
+        top:0px;
+        left:0px;
+        color:white;
+        text-decoration: none;
+        font-size:1.5rem;
+        font-family: 'Righteous', cursive;
+        margin:0px 10px;
+        &:hover{
+            &:before{
+                width: 100%;
+            }   
+        }
+        &:before{
+            content:'';
+            position:absolute;
+            bottom:-5px;
+            left:50%;
+            width: 0%;
+            border-bottom: 4px solid white;
+            transition:all 0.3s ease-out;
+            transform: translateX(-50%);
+        }
+        
+    }
+}

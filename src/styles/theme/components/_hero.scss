@@ -1,0 +1,15 @@
+.hero {
+    position: relative;
+    top:0px;
+    left:0px;
+    &__video-wrapper{
+        position: relative;
+        top:0px;
+        left:0px;
+        overflow: hidden;
+        height:100vh;
+    }
+    &__video{
+        width:100vw;
+    }
+}
