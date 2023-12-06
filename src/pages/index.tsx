@@ -75,7 +75,7 @@ const IndexPage: React.FC = (): JSX.Element => {
     if (id === "UX/UI"){
       height = 450
     } else if(id === "E-commerce") {
-      height = 150;
+      height = 350;
     }
     else if (id === "Websites") {
       height = 770;
