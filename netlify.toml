@@ -1,0 +1,14 @@
+[build]
+command = "npm install && npm run build"
+node_version = "16.14.1"
+publish = "public/"
+
+[[plugins]]
+package = "@netlify/plugin-gatsby"
+
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
