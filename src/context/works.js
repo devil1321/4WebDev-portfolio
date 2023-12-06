@@ -317,8 +317,7 @@ export const data = [{
                     link:'https://sopa-shop-next.vercel.app/'
                 }
 
-            },
-            ,{
+            },{
                 node: {
                     title: 'House Hold Shop',
                     subtitle: 'React/Redux/TypeScript/SCSS/Next',
@@ -327,8 +326,7 @@ export const data = [{
                     link:'https://household-next.vercel.app/'
                 }
 
-            }
-            ,{
+            },{
                 node: {
                     title: 'House Shop Co',
                     subtitle: 'React/Redux/TypeScript/SCSS/Gatbsy',
