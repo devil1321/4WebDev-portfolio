@@ -20,7 +20,7 @@ const Hero:React.FC = (): JSX.Element  => {
             <div className="hero__info">
                 <h1><div className="hero__dot-top"></div>D <div className="hero__dot-bottom"></div>S</h1>
                 <p>Dominik Stepien</p>
-                <p>Front End Developer</p>
+                <p>Full Stack Developer</p>
             </div>
             <Nav />
             <div className="hero__feature">
