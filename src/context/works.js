@@ -69,7 +69,7 @@ export const data = [{
     },
     {
         category: 'Websites',
-        slides: ['websites/gatos.png','websites/music.jpg','websites/booking-clone.png','websites/youtube-clone.png','websites/chatex.png','websites/free-landing-page.png','websites/blog.png', 'websites/portfolio.png', 'websites/club-in.png', 'websites/easy-bank.png', 'websites/ice-and-cake.png', 'websites/manage-landing-page.png', 'websites/loopstudios.png', 'websites/apps-market.png', 'websites/rooms-homepage.png', ],
+        slides: ['websites/gatos.png','websites/music.jpg','websites/booking-clone.png','websites/free-landing-page.png','websites/blog.png', 'websites/portfolio.png', 'websites/club-in.png', 'websites/easy-bank.png', 'websites/ice-and-cake.png', 'websites/manage-landing-page.png', 'websites/loopstudios.png', 'websites/apps-market.png', 'websites/rooms-homepage.png', ],
         articles: [
             {
                 node: {
@@ -98,26 +98,6 @@ export const data = [{
                     text: 'Booking Clone made with Gatsby and React-Redux',
                     github: 'https://github.com/devil1321/booking-clone/tree/master',
                     link:'https://booking-clone-gatsby.netlify.app'
-                }
-
-            },
-            {
-                node: {
-                    title: 'Youtube Clone',
-                    subtitle: 'HTML/CSS/SCSS/JS/TypeScript/React/React-Redux',
-                    text: 'Booking Clone made with React TypeScript and React-Redux',
-                    github: 'https://github.com/devil1321/youtube-clone-react-redux/tree/dev',
-                    link:'https://youtube-clone-redux.netlify.app'
-                }
-
-            },
-            {
-                node: {
-                    title: 'Chatex Chat',
-                    subtitle: 'HTML/CSS/SCSS/JS/TypeScript/React/React-Redux/Gatsby',
-                    text: 'Simple Chat app using Gatsby',
-                    github: 'https://github.com/devil1321/chatex-gatsby',
-                    link:'https://chatex-worldwide.netlify.app/login/'
                 }
 
             },
@@ -299,7 +279,7 @@ export const data = [{
     },
     {
         category: 'E-commerce',
-        slides: ['e-commerce/mademe.jpg','e-commerce/sopa.png','e-commerce/household.png','e-commerce/shop-co.png','e-commerce/sale-hub.png', 'e-commerce/easy-shop.png'],
+        slides: ['e-commerce/mademe.jpg','e-commerce/sopa.png','e-commerce/household.png','e-commerce/sale-hub.png', 'e-commerce/easy-shop.png'],
         articles: [{
             node: {
                 title: 'Shop Mademe',
@@ -324,15 +304,6 @@ export const data = [{
                     text: 'This is a Household Shop template',
                     github: 'https://github.com/devil1321/house-hold-next',
                     link:'https://household-next.vercel.app/'
-                }
-
-            },{
-                node: {
-                    title: 'House Shop Co',
-                    subtitle: 'React/Redux/TypeScript/SCSS/Gatbsy',
-                    text: 'This is a Shop Co template',
-                    github: 'https://github.com/devil1321/shop-co-gatsby',
-                    link:'https://shop-co.netlify.app/'
                 }
 
             },{
