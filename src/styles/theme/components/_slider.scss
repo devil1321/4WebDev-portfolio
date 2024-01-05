@@ -207,6 +207,9 @@
         &__img {
             min-width: 400px;
             transform: translateX(-290px);
+            @include breakpoint-up(xlarge){
+                width:1470px;
+            }
             @include breakpoint-down(medium) {
                 transform: translateX(-300px);
             }
