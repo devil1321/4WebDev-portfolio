@@ -22,6 +22,9 @@
             margin: 0px auto;
             width: 90%;
             animation: anim-bg 40s ease infinite;
+            @include breakpoint-up(xlarge){
+                width:100%;
+            }
             @include breakpoint-down(medium) {
                 animation: none;
             }
