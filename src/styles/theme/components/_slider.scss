@@ -117,7 +117,7 @@
                     }
                 }
                 &:nth-of-type(2) {
-                    width: 60px;
+                    width: 90px;
                     left: 90px;
                     color: white;
                     font-family: $roboto-font;
@@ -218,6 +218,9 @@
             }
             img {
                 width: 800px;
+                @include breakpoint-up(xlarge){
+                    width:200%;
+                }
                 @include breakpoint-down(medium) {
                     width: 600px;
                 }
