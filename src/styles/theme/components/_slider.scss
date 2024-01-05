@@ -70,6 +70,9 @@
             top: 75%;
             left: 27%;
             z-index: 20;
+            @include breakpoint-up(xlarge){
+                left:35%;
+            }
             @media(max-device-width: 1366px) and (min-device-height: 1024px) and (orientation: landscape) {
                 left: 28%;
                 top: 72%;
@@ -117,7 +120,7 @@
                     }
                 }
                 &:nth-of-type(2) {
-                    width: 90px;
+                    width: 70px;
                     left: 90px;
                     color: white;
                     font-family: $roboto-font;
@@ -173,7 +176,7 @@
             position: relative;
             top: 10%;
             left: 28.5%;
-            max-width: 230px;
+            max-width: 43%;
             height: 65vh;
             overflow: hidden;
             @media(max-device-width: 1366px) and (min-device-height: 1024px) and (orientation: landscape) {
