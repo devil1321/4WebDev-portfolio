@@ -30,8 +30,8 @@ export const data = [{
             },
         },{
             node: {
-                title: 'Sattelitor Landing Page',
-                subtitle: 'HTML/Tailwind/Next/Gsap',
+                title: 'Resend Landing Page',
+                subtitle: 'HTML/Tailwind/Next/GSAP/THREEJS',
                 text: 'This is Resend Landing Page using gsap and ThreeJS animations',
                 github: 'https://github.com/devil1321/resend-landing-page-next',
                 link:'https://resend-next.netlify.app'
@@ -111,8 +111,8 @@ export const data = [{
                 },
             },{
                 node: {
-                    title: 'Sattelitor Landing Page',
-                    subtitle: 'HTML/Tailwind/Next/Gsap',
+                    title: 'Resend Landing Page',
+                    subtitle: 'HTML/Tailwind/Next/GSAP/THREEJS',
                     text: 'This is Resend Landing Page using gsap and ThreeJS animations',
                     github: 'https://github.com/devil1321/resend-landing-page-next',
                     link:'https://resend-next.netlify.app'
@@ -336,7 +336,7 @@ export const data = [{
                     }
             },{
                 node: {
-                    title: 'Shop Nest',
+                    title: 'Shop Diamond',
                     subtitle: 'Next/Redux/TypeScript/Tailwind/GSAP',
                     text: 'This is my Fullstack Shop named Diamond',
                     github: 'https://github.com/devil1321/diamond-shop-next-fullstack',
