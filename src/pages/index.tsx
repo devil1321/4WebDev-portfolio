@@ -75,11 +75,11 @@ const IndexPage: React.FC = (): JSX.Element => {
     tl.fromTo(
       ".home__service-content",
       { width: "0px", maxHeight: "10px", force3D:true },
-      { width: "100%", maxHeight: "10px", force3D:true, duration: 1 }
+      { width: "100%", maxHeight: "10px", force3D:true, duration: 2 }
     ).fromTo(
       ".home__service-content",
       { maxHeight:'2px', padding: "0px" ,force3D:true },
-      { maxHeight: `9999px`, padding: "20px", force3D:true, duration: 1, delay: 0.4 }
+      { maxHeight: `9999px`, padding: "20px", force3D:true, duration: 2, delay: 0.4 }
     );
   };
 
@@ -88,11 +88,11 @@ const IndexPage: React.FC = (): JSX.Element => {
     tl.fromTo(
       ".home__service-content",
       { maxHeight: `9999px`, padding: "20px", force3D:true },
-      { height: `10px`, padding: "0px", force3D:true, duration: 1 }
+      { height: `10px`, padding: "0px", force3D:true, duration:2 }
     ).fromTo(
       ".home__service-content",
       { width: "100%", maxHeight: "10px", force3D:true },
-      { width: "0px", maxHeight: "0px", force3D:true, duration: 1 }
+      { width: "0px", maxHeight: "0px", force3D:true, duration:2 }
     );
 
     setTimeout(() => {
