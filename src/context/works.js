@@ -1,7 +1,15 @@
 export const data = [{
         category: 'UX/UI',
-        slides: ['applications/dashboard.jpg','websites/framework.jpg','websites/sattelitor.png','websites/resend.png','e-commerce/mademe.jpg','e-commerce/sale-hub.png', 'applications/quiz-app.png', 'websites/portfolio.png', 'applications/todo-app-redux.png'],
+        slides: ['e-commerce/wearable.png','applications/dashboard.jpg','websites/framework.jpg','websites/sattelitor.png','websites/resend.png','e-commerce/mademe.jpg','e-commerce/sale-hub.png', 'applications/quiz-app.png', 'websites/portfolio.png', 'applications/todo-app-redux.png'],
         articles: [{
+            node: {
+                title: 'Shop Wearable',
+                subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/Printful API',
+                text: 'This is My Own Dropshipping Store Based On Printful',
+                github: 'https://github.com/devil1321/werable.com',
+                link:'https://composite-wearable.vercel.app'                
+                }
+            },{
             node: {
                 title: 'DASH Company Admin Template',
                 subtitle: 'Next/Redux/TypeScript/SCSS',
@@ -317,8 +325,16 @@ export const data = [{
     },
     {
         category: 'E-commerce',
-        slides: ['e-commerce/mademe.jpg','e-commerce/nest.png','e-commerce/diamond.png','e-commerce/sopa.png','e-commerce/household.png','e-commerce/sale-hub.png', 'e-commerce/easy-shop.png'],
+        slides: ['e-commerce/wearable.png','e-commerce/mademe.jpg','e-commerce/nest.png','e-commerce/diamond.png','e-commerce/sopa.png','e-commerce/household.png','e-commerce/sale-hub.png', 'e-commerce/easy-shop.png'],
         articles: [{
+            node: {
+                title: 'Shop Wearable',
+                subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/Printful API',
+                text: 'This is My Own Dropshipping Store Based On Printful',
+                github: 'https://github.com/devil1321/werable.com',
+                link:'https://composite-wearable.vercel.app'                
+                }
+            },{
             node: {
                 title: 'Shop Mademe',
                 subtitle: 'Gatsby/Redux/TypeScript/SCSS/Contentful',

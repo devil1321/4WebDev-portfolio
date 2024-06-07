@@ -70,55 +70,29 @@ const IndexPage: React.FC = (): JSX.Element => {
   const handleServiceOpen = (id: string): void => {
     let category = data.find((item) => item.category === id);
     setCategory(id);
-    var height: number;
-
-    if (id === "UX/UI"){
-      height = 450
-    } else if(id === "E-commerce") {
-      height = 350;
-    }
-    else if (id === "Websites") {
-      height = 770;
-    } else if (id === "Applications") {
-      height = 450;
-    }
-
     setCurrent(category);
-  
-
     let tl = gsap.timeline();
     tl.fromTo(
       ".home__service-content",
-      { width: "0px", height: "10px", force3D:true },
-      { width: "100%", height: "10px", force3D:true, duration: 1 }
+      { width: "0px", maxHeight: "10px", force3D:true },
+      { width: "100%", maxHeight: "10px", force3D:true, duration: 1 }
     ).fromTo(
       ".home__service-content",
-      { height: "2px", padding: "0px" ,force3D:true },
-      { height: `${height}px`, padding: "20px", force3D:true, duration: 1, delay: 0.4 }
+      { maxHeight:'2px', padding: "0px" ,force3D:true },
+      { maxHeight: `9999px`, padding: "20px", force3D:true, duration: 1, delay: 0.4 }
     );
   };
 
   const handleServiceClose = (): void => {
-    var height: number;
-    if (category === "UX/UI") {
-      height = 350;
-    }else if(category === "E-commerce"){
-      height = 350;
-    }
-    else if (category === "Websites") {
-      height = 470;
-    } else if (category === "Applications") {
-      height = 450;
-    }
     let tl = gsap.timeline();
     tl.fromTo(
       ".home__service-content",
-      { height: `${height}`, padding: "20px", force3D:true },
+      { maxHeight: `9999px`, padding: "20px", force3D:true },
       { height: `10px`, padding: "0px", force3D:true, duration: 1 }
     ).fromTo(
       ".home__service-content",
-      { width: "100%", height: "10px", force3D:true },
-      { width: "0px", height: "0px", force3D:true, duration: 1 }
+      { width: "100%", maxHeight: "10px", force3D:true },
+      { width: "0px", maxHeight: "0px", force3D:true, duration: 1 }
     );
 
     setTimeout(() => {
