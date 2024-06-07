@@ -4,7 +4,7 @@ export const data = [{
         articles: [{
             node: {
                 title: 'Shop Wearable',
-                subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/Printful API',
+                subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/Printful',
                 text: 'This is My Own Dropshipping Store Based On Printful',
                 github: 'https://github.com/devil1321/werable.com',
                 link:'https://composite-wearable.vercel.app'                
@@ -329,7 +329,7 @@ export const data = [{
         articles: [{
             node: {
                 title: 'Shop Wearable',
-                subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/Printful API',
+                subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/Printful',
                 text: 'This is My Own Dropshipping Store Based On Printful',
                 github: 'https://github.com/devil1321/werable.com',
                 link:'https://composite-wearable.vercel.app'                
