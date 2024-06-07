@@ -88,11 +88,11 @@ const IndexPage: React.FC = (): JSX.Element => {
     tl.fromTo(
       ".home__service-content",
       { maxHeight: `9999px`, padding: "20px", force3D:true },
-      { height: `10px`, padding: "0px", force3D:true, duration:2 }
+      { height: `10px`, padding: "0px", force3D:true, duration:1 }
     ).fromTo(
       ".home__service-content",
       { width: "100%", maxHeight: "10px", force3D:true },
-      { width: "0px", maxHeight: "0px", force3D:true, duration:2 }
+      { width: "0px", maxHeight: "0px", force3D:true, duration:1 }
     );
 
     setTimeout(() => {
