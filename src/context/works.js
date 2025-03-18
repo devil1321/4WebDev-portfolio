@@ -341,7 +341,7 @@ export const data = [{
                     subtitle: 'Design Figma/Next/Redux/TypeScript/Tailwind/',
                     text: 'This is e-commerce template Household',
                     github: 'https://github.com/devil1321/household-ecommerce-next-template',
-                    link:'https://vercel.com/devil1321s-projects/household-ecommerce-next-template-7jqw'                
+                    link:'https://household-ecommerce-next-template-7jqw.vercel.app/'                
                     }
                 },{
             node: {
